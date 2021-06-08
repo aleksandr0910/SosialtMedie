@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(40, 79, 49);
+    
+}
+
+p{
+  color:rgb(152, 215, 255);
+}
+
+#Overskrift{
+    color:white;
+    margin-left:200px;
+    font-size:32pt;
+    
+}
+
+.bildedeling{
+  background-color:rgb(39, 76, 74);
+  text-align: center;
+  width:300px;
+  height:500px;
+  margin-left:300px;
+  border: 1px black;
+  border-style:solid;
+  border-radius: 10px;
+  color:white;
+  
+  
+ 
+}
+
+#line{
+  border-left: 4px solid rgb(4, 182, 96);
+  height: 600px;
+  margin-left:200px;
+  position:fixed;
+}
+
+
+.bildedeling img{
+  margin-left:px;
+  width: 300px;
+  box-shadow: 2px 2px;
+  margin-top:3px;
+  font-size: 15pt;
+  color:white;
+  margin-right:20px;
+  margin-top:20px;
+}
+
+
+#info{
+  margin-left:300px;
+  width:400px;
+  height:125px;
+  
+}
+
+#Johan{
+  margin-left:200px;
+  color:beige ;
+  background-color:rgb(39, 76, 74);
+  text-align: center;
+  width:300px;
+  height:200px;
+  margin-left:300px;
+  border: 1px black;
+  border-style:solid;
+  border-radius: 10px;
+  font-size: 30px;
+  list-style-type: none;
+  
+}
+
+#post{
+  width:150px;
+  height:160px;
+  margin-left:700px;
+  margin-top:-180px;
+  background-color:rgb(68, 214, 240);
+ 
+}
+
+/** konto **/
+
+#div{
+  display:inline-block;
+  
+}
+
+#pfp{
+  border-radius: 150px;
+  margin-left:300px;
+  width:70px;
+  height:70px;
+  transition:all .2s ease-in-out;
+}
+
+#følgere{
+  margin-left:400px ;
+  margin-top: -50px;
+  font-size:10pt;
+  color:white;
+}
+
+#antallF{
+  margin-left:400px;
+  font-size:20pt;
+  color:white;
+  opacity:0;
+  display:inline;
+}
+
+#innlegg{
+  margin-left:600px;
+  margin-top: -50px;
+  font-size:10pt;
+  color:white;
+}
+
+#div:hover{ 
+  transform-origin:top;
+  transform:scale(3) translate(0,50px);
+  
+}
+
+#div:hover #antallF{
+  opacity:1;
+}
